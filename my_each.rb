@@ -12,5 +12,3 @@ def my_each(array)
   end
   return array
 end
-
-
