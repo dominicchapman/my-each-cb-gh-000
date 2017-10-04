@@ -1,8 +1,4 @@
 
-# my_each(collection) do |item|
-#   puts item
-# end
-
 def my_each(array)
   i = 0
 
@@ -11,4 +7,9 @@ def my_each(array)
     i = i + 1
   end
   return array
+end
+
+
+my_each(collection) do |item|
+  puts item
 end
