@@ -6,6 +6,6 @@ def my_each(array)
     yield array[i]
     i = i + 1
   end
-  # we must return original array to fully emulate .each
+  # we must return original array to fully emulate each
   return array
 end
