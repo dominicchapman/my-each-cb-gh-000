@@ -8,8 +8,3 @@ def my_each(array)
   end
   return array
 end
-
-
-my_each(collection) do |item|
-  puts item
-end
